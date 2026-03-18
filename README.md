@@ -2,7 +2,7 @@
 
 **LockSmith** is an interactive password strength analyzer that helps users create secure passwords. It features real-time strength visualization, entropy calculation, crack-time estimation, and password suggestions — all in a sleek, professional interface.  
 
-Live demo: [LockSmith on GitHub Pages](https://your-username.github.io/locksmith-password-analyzer/)
+Live demo: [LockSmith on GitHub Pages](https://anahita-bhardwaj.github.io/LockSmith/)
 
 ---
 
