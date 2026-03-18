@@ -1,0 +1,60 @@
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: linear-gradient(135deg,#1f2b6c,#667eea);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  color: #fff;
+}
+
+.container {
+  background: #1a1a2e;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(102,126,234,0.5);
+  text-align: center;
+  width: 400px;
+}
+
+h1 { margin-bottom: 5px; font-size: 2rem; }
+.subtitle { font-size: 0.9rem; color: #a0a0ff; margin-bottom: 20px; }
+
+input {
+  width: 100%; padding: 12px; font-size: 16px; border-radius: 6px;
+  border: 1px solid #444; outline: none; margin-bottom: 10px;
+  background: #0f0f2e; color: #fff;
+}
+
+.show-password { display: block; margin-bottom: 10px; font-size: 14px; color: #aaa; }
+
+button {
+  margin-top: 5px; padding: 10px 15px; font-size: 14px; border: none;
+  border-radius: 6px; background: #667eea; color: white; cursor: pointer;
+  transition: 0.3s;
+}
+button:hover { background: #5a67d8; }
+
+.strength-bar {
+  width: 100%; height: 14px; background: #333; border-radius: 7px;
+  margin-top: 15px; overflow: hidden; box-shadow: 0 0 10px #000 inset;
+}
+
+#strength-fill {
+  height: 100%;
+  width: 0%;
+  border-radius: 7px;
+  transition: width 0.5s ease, box-shadow 0.5s ease, background 0.5s ease;
+  background-size: 200% 100%;
+  animation: shimmer 2s linear infinite;
+}
+
+@keyframes shimmer {
+  0% { background-position: 0% 0%; }
+  100% { background-position: 200% 0%; }
+}
+
+#strength-text { margin-top: 10px; font-weight: bold; text-shadow: 0 0 4px #000; }
+#suggestions { margin-top: 15px; font-size: 14px; color: #bbb; text-align: left; }
+#entropy-text { margin-top: 10px; font-size: 14px; color: #88ff88; text-align: left; }

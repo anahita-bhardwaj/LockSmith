@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>LockSmith – Password Strength Checker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h1>LockSmith 🔒</h1>
+  <p class="subtitle">Secure your passwords in real-time</p>
+
+  <!-- Password Input -->
+  <input type="password" id="password" placeholder="Enter password">
+
+  <!-- Show/Hide Checkbox -->
+  <label class="show-password">
+    <input type="checkbox" id="show-password"> Show Password
+  </label>
+
+  <!-- Generate Password Button -->
+  <button id="generate-btn">Generate Secure Password</button>
+
+  <!-- Strength Bar -->
+  <div class="strength-bar">
+    <div id="strength-fill"></div>
+  </div>
+
+  <!-- Strength Text -->
+  <p id="strength-text"></p>
+
+  <!-- Suggestions -->
+  <div id="suggestions"></div>
+
+  <!-- Entropy -->
+  <p id="entropy-text"></p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
