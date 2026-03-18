@@ -18,7 +18,7 @@ Live demo: [LockSmith on GitHub Pages](https://anahita-bhardwaj.github.io/LockSm
 
 ## **Screenshot**
 
-![LockSmith Screenshot](screenshot.png)
+![LockSmith Screenshot](screenshotLS.png)
 
 > Tip: Take a screenshot of your project and save it as `screenshot.png` in the repo folder. GitHub will display it here automatically.
 
